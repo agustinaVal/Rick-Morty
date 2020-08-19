@@ -1,0 +1,16 @@
+body {
+  background: black;
+  color: white;
+}
+
+ul li{
+  color: white
+}
+.personaje{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
