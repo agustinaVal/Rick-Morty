@@ -1,20 +1,44 @@
-body {
-  background: black;
- 
+
+.titulo {
+  font-size: 80px;
+  text-align: center;
+  color: turquoise;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-ul li{
- 
+.titulo_personaje {
+	color: turquoise;
 }
-.personaje{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.card-title,.card-text{
+  color: grey;
 }
 
-.card-body{
-  display: none;
+#personajes {
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: left;
+}
+.card {
+  margin: 5px;
+  padding: 5PX;
+}
+
+.personaje {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.card-body {
+	display: none;
+}
+
+img:hover {
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
 }
